@@ -1,14 +1,26 @@
-layout_spectrum: 0.9498208
-typography_spectrum: 0.281362
 color:
   saturation: 0.332673
-  lightness: 0.3806054
   brandStrength: 0.4910394
+  rhythmicContrast: 0.09059138
   brandColors:
     - '#0F0428'
     - '#661591'
     - '#6501FB'
     - '#FFFBFF'
     - '#FF01FF'
-  rhythmicContrast: 0.09059138
+  lightness: 0.3806054
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+layout_spectrum: 0.9498208
+typography_spectrum: 0.281362
 name: Thomas M Warren
